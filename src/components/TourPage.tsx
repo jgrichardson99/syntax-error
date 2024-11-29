@@ -1,4 +1,5 @@
 import NavBar from "./NavBar";
+import TourInfo from "./TourInfo";
 
 function TourPage() {
   return (
@@ -6,7 +7,9 @@ function TourPage() {
       <div>
         <NavBar />
       </div>
-      <h1>Tour</h1>
+      <div>
+        <TourInfo />
+      </div>
     </>
   );
 }
