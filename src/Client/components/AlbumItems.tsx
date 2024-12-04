@@ -7,7 +7,7 @@ function AlbumItems() {
   return (
     <div className="card-group">
       <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
+        <img src="/download.jpg" className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Binary Overflow Album</h5>
           <p className="card-text">
@@ -52,7 +52,7 @@ function AlbumItems() {
         </div>
       </div>
       <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
+        <img src="/infinite.jpg" className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Infinite Loop Album</h5>
           <p className="card-text">
@@ -97,7 +97,7 @@ function AlbumItems() {
         </div>
       </div>
       <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
+        <img src="/algorithm.jpg" className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Algorithmic Amusement Album</h5>
           <p className="card-text">

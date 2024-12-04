@@ -7,7 +7,7 @@ function ShirtItems() {
   return (
     <div className="card-group">
       <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
+        <img src="/tshirt.png" className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Binary Overflow Shirt</h5>
           <p className="card-text">
@@ -56,7 +56,7 @@ function ShirtItems() {
         </div>
       </div>
       <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
+        <img src="/tshirt.png" className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Infinite Loop Shirt</h5>
           <p className="card-text">
@@ -105,7 +105,7 @@ function ShirtItems() {
         </div>
       </div>
       <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
+        <img src="/tshirt.png" className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">Algorithmic Amusement Shirt</h5>
           <p className="card-text">
