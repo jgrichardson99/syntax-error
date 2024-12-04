@@ -25,7 +25,7 @@ const Test = () => {
 
 
         {tour.map(tours => (
-            <div className="tours">
+            <div className="tours" key={tours.Name}>
                 <h2>{tours.Name}</h2>
                 <h2>{tours.Length}</h2>
             </div>
