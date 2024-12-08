@@ -491,7 +491,7 @@ CREATE TABLE `tour_dates` (
 
 LOCK TABLES `tour_dates` WRITE;
 /*!40000 ALTER TABLE `tour_dates` DISABLE KEYS */;
-INSERT INTO `tour_dates` VALUES ('2030 Canada Tour','2030-01-01','Calgary, AB');
+INSERT INTO `tour_dates` VALUES ('2030 Canada Tour','2030-01-01','Calgary, AB'),('2030 Canada Tour','2030-01-02','Edmonton, AB'),('2030 Canada Tour','2030-01-05','Vancouver, BC'),('2030 Canada Tour','2030-01-08','Toronto, ON'),('2030 Canada Tour','2030-01-11','Winnipeg, MB');
 /*!40000 ALTER TABLE `tour_dates` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -602,4 +602,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-12-03 23:02:28
+-- Dump completed on 2024-12-08 16:51:05
