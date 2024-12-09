@@ -1,4 +1,6 @@
+import CartComponent from "./CartComponent";
 import NavBar from "./NavBar";
+import PaymentComponent from "./PaymentComponent";
 
 function AccountPage() {
   return (
@@ -6,7 +8,19 @@ function AccountPage() {
       <div>
         <NavBar />
       </div>
-      <h1>Account</h1>
+
+      <div className="row align-items-start">
+        <div className="col"></div>
+        <div className="col-sm-9 p-3">
+          <div>
+            <CartComponent />
+          </div>
+          <div>
+            <PaymentComponent />
+          </div>
+        </div>
+        <div className="col"></div>
+      </div>
     </>
   );
 }

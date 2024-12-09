@@ -38,7 +38,7 @@ function NavBar() {
           </ul>
           <span className="nav-item">
             <a className="nav-link" href="account">
-              Account
+              Cart
             </a>
           </span>
         </div>
