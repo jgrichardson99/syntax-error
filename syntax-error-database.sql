@@ -465,6 +465,7 @@ CREATE TABLE `tour` (
 
 LOCK TABLES `tour` WRITE;
 /*!40000 ALTER TABLE `tour` DISABLE KEYS */;
+INSERT INTO `tour` VALUES ('2030 Canada Tour','11 Days'),('Test Tour','1 Day');
 /*!40000 ALTER TABLE `tour` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -490,6 +491,7 @@ CREATE TABLE `tour_dates` (
 
 LOCK TABLES `tour_dates` WRITE;
 /*!40000 ALTER TABLE `tour_dates` DISABLE KEYS */;
+INSERT INTO `tour_dates` VALUES ('2030 Canada Tour','2030-01-01','Calgary, AB'),('2030 Canada Tour','2030-01-02','Edmonton, AB'),('2030 Canada Tour','2030-01-05','Vancouver, BC'),('2030 Canada Tour','2030-01-08','Toronto, ON'),('2030 Canada Tour','2030-01-11','Winnipeg, MB');
 /*!40000 ALTER TABLE `tour_dates` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -514,6 +516,7 @@ CREATE TABLE `tour_guests` (
 
 LOCK TABLES `tour_guests` WRITE;
 /*!40000 ALTER TABLE `tour_guests` DISABLE KEYS */;
+INSERT INTO `tour_guests` VALUES ('2030 Canada Tour','Hans Zimmer');
 /*!40000 ALTER TABLE `tour_guests` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -599,4 +602,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-12-02 14:53:54
+-- Dump completed on 2024-12-08 16:51:05
