@@ -10,7 +10,6 @@ import StorePage from "./components/StorePage";
 
 import "bootstrap/dist/css/bootstrap.css";
 import NotFoundPage from "./components/NotFoundPage";
-import Test from "./components/Test";
 
 const router = createBrowserRouter([
   {
@@ -33,10 +32,6 @@ const router = createBrowserRouter([
   {
     path: "/store",
     element: <StorePage />,
-  },
-  {
-    path: "/test",
-    element: <Test />,
   },
 ]);
 

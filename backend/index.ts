@@ -2,8 +2,8 @@ import express from "express";
 import mysql from "mysql";
 import cors from "cors";
 
+// Connect to database
 const app = express()
-
 const db = mysql.createConnection({
     host:"localhost",
     user:"root",
@@ -26,15 +26,6 @@ app.get("/tour", (req, res) => {
     db.query(q, (err, data) => {
         if (err) return res.json(err);
         console.log(data)
-        return res.json(data);
-    })
-})
-
-app.post("/books", (req, res) => {
-    const q = "INSERT INTO tour ('Name', 'Length') VALUES (?)";
-    const values = ["New Tour", "2 Days"];
-    db.query(q, [values], (err, data) => {
-        if (err) return res.json(err);
         return res.json(data);
     })
 })
